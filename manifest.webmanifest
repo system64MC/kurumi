@@ -22,7 +22,7 @@
   // you may not be able to install the app. 
   "icons": [
       {
-        "src": "favicon.jpeg",
+        "src": "/kurumi/favicon.jpeg",
         "type": "image/jpeg",
         "sizes": "128x128"
       }
