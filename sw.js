@@ -1,4 +1,4 @@
-var GHPATH = '/github-page-pwa';
+var GHPATH = '/kurumi';
 var APP_PREFIX = 'gppwa_';
 var VERSION = 'version_004';
 var URLS = [    
