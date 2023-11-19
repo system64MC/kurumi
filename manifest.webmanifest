@@ -1,7 +1,7 @@
 {
-  "name": "Github Page PWA",
-  "short_name": "GPPWA",
-  "description": "Github Page as a Progressive Web App",
+  "name": "Kurumi",
+  "short_name": "KUPWA",
+  "description": "This is Kurumi",
   "scope": "/kurumi/",
   "start_url": "/kurumi/",
   "background_color": "#ffffff",
