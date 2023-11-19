@@ -16,7 +16,7 @@ var URLS = [
   `${GHPATH}/`,
   `${GHPATH}/index.html`,
   `${GHPATH}/index.js`,
-  `${GHPATH}/index.wasm`
+  // `${GHPATH}/index.wasm`
 ]
 
 var CACHE_NAME = APP_PREFIX + VERSION
