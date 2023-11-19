@@ -1,7 +1,7 @@
 {
   "name": "Kurumi",
-  "short_name": "KUPWA",
-  "description": "This is Kurumi",
+  "short_name": "Kurumi",
+  "description": "Wavetable Workstation",
   "scope": "/kurumi/",
   "start_url": "/kurumi/",
   "background_color": "#ffffff",
