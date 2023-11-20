@@ -1,27 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
-    <link rel="icon" href="favicon.png">
+<!doctype html>
+<html lang="en-us">
+  <head>
     <meta charset="utf-8">
-<!--     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> -->
-<!--     <meta http-equiv="Cross-Origin-Embedder-Policy" content="require-corp" /> -->
-<!--     <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin" /> -->
-    
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Kurumi-X ~ Modular Wavetable Workstation">
-    <meta property="og:site_name" content="Kurumi-X ~ Modular Wavetable Workstation">
-    <meta property="og:description" content="🧛 The Wavetable Workstation as powerful as Vampires 🧛">
-    <meta property="og:image" content="https://system64mc.github.io/kurumi/favicon.jpeg">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="og:footer" content="🧛🦇">
-    <meta name="theme-color" content="#fc0000">
-  <title>Kurumi ~ Modular Wavetable Workstation</title>
-  <link rel="canonical" href="https://codepo8.github.io/kurumi/" />
-  <link rel="manifest" href="/kurumi/manifest.webmanifest">
-</head>
-<style>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+      <link rel="icon" href="favicon.png">
+      <meta charset="utf-8">
+  <!--     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> -->
+  <!--     <meta http-equiv="Cross-Origin-Embedder-Policy" content="require-corp" /> -->
+  <!--     <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin" /> -->
+      
+      <meta property="og:type" content="website">
+      <meta property="og:title" content="Kurumi-X ~ Modular Wavetable Workstation">
+      <meta property="og:site_name" content="Kurumi-X ~ Modular Wavetable Workstation">
+      <meta property="og:description" content="🧛 The Wavetable Workstation as powerful as Vampires 🧛">
+      <meta property="og:image" content="https://system64mc.github.io/kurumi/favicon.jpeg">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta property="og:footer" content="🧛🦇">
+      <meta name="theme-color" content="#fc0000">
+    <title>Kurumi ~ Modular Wavetable Workstation</title>
+    <link rel="canonical" href="https://codepo8.github.io/kurumi/" />
+    <link rel="manifest" href="/kurumi/manifest.webmanifest">
+      
+    <!-- <link type="application/json+oembed" href="embed.json"> -->
+    <title>Kurumi ~ Modular Wavetable Workstation</title>
+    <style>
         body { margin: 0; background-color: black }
         .game {
             position: absolute;
@@ -46,13 +48,13 @@
   </head>
   <body>
     <canvas class="game" id="canvas" oncontextmenu="event.preventDefault()" tabindex=-1></canvas>
-    <script>
+    <script type='text/javascript'>
 
     if (navigator.serviceWorker) {
             navigator.serviceWorker.register (
               '/kurumi/sw.js',
               {scope: '/kurumi/'}
-            )
+            );
           }
 
       var Module = {
@@ -102,3 +104,4 @@
     <script async type="text/javascript" src="index.js"></script>
   </body>
 </html>
+
