@@ -1,10 +1,11 @@
 var GHPATH = '/kurumi';
 var APP_PREFIX = 'kurpwa_';
-var VERSION = 'version_008';
+var VERSION = 'version_009';
 var URLS = [    
   `${GHPATH}/`,
   `${GHPATH}/index.html`,
   `${GHPATH}/index.js`,
+  `${GHPATH}/sw.js`,
   `${GHPATH}/index.wasm`
   // `${GHPATH}/js/app.js`
 ]
@@ -12,7 +13,7 @@ var URLS = [
 var CACHE_NAME = APP_PREFIX + VERSION
 self.addEventListener('fetch', function (e) {
   console.log('Fetch request : ' + e.request.url);
-  e.respondWith(
+e.respondWith(  
     caches.match(e.request).then(function (request) {
       if (request) { 
         console.log('Responding with cache : ' + e.request.url);
@@ -25,7 +26,7 @@ self.addEventListener('fetch', function (e) {
   )
 })
 
-self.addEventListener('install', function (e) {
+self.addEventListener('install', function (e) { 
   e.waitUntil(
     caches.open(CACHE_NAME).then(function (cache) {
       console.log('Installing cache : ' + CACHE_NAME);
