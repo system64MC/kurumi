@@ -1,6 +1,6 @@
 var GHPATH = "/kurumi";
 var APP_PREFIX = "kurpwa_";
-var VERSION = "version_015";
+var VERSION = "version_016";
 var URLS = [
   `${GHPATH}/`,
   `${GHPATH}/index.html`,
